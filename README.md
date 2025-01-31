@@ -15,10 +15,11 @@
 Приложение написано на FastAPI, разворачивается при помощи docker-compose.
 ## Сборка проекта с помощью API ключей:
 1) Скачать проект и зайти в проект с помощью cd
-2) Выполнить echo GIGACHAT_CREDENTIALS=<Ключ от GigiChat>
-TAVILY_API_KEY=<Ключ от tavily> > .env 
-3) docker compose build
-4) docker compose up
+2) Выполнить nano и записать
+GIGACHAT_CREDENTIALS=<Ключ от GigiChat>
+TAVILY_API_KEY=<Ключ от tavily> 
+4) docker compose build
+5) docker compose up -d
 ## Сборка
 Для запуска выполните команду:
 
