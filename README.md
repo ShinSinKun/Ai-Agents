@@ -13,7 +13,12 @@
 # FastAPI Baseline Service
 Это пример базового приложения, которое реализует API для получения запроса и возврата ответа.
 Приложение написано на FastAPI, разворачивается при помощи docker-compose.
-
+## Сборка проекта с помощью API ключей:
+1) Скачать проект и зайти в проект с помощью cd
+2) Выполнить echo GIGACHAT_CREDENTIALS=<Ключ от GigiChat>
+TAVILY_API_KEY=<Ключ от tavily> > .env 
+3) docker compose build
+4) docker compose up
 ## Сборка
 Для запуска выполните команду:
 
