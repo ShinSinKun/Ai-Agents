@@ -15,9 +15,10 @@ COPY requirements.txt .
 # Создание виртуального окружения
 RUN python -m venv venv
 
-# Активация виртуального окружения и установка зависимостей
+# Активация виртуального окружения, апгрейд pip и установка зависимостей
 ENV PATH="/app/venv/bin:$PATH"
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt
 
 # Копирование остального приложения
 COPY . .
