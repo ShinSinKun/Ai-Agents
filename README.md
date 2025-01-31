@@ -25,7 +25,7 @@ GIGACHAT_CREDENTIALS=<Ключ от GigiChat>
 TAVILY_API_KEY=<Ключ от tavily> 
 4) docker compose build
 5) docker compose up -d
-## Хостинг 84.252.134.2:8080
+
 # Проверка
 ```bash
 curl -X POST "http://84.252.134.2:8080/api/request" \
