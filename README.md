@@ -15,7 +15,7 @@
 Приложение написано на FastAPI, разворачивается при помощи docker-compose.
 ## Сборка проекта с помощью API ключей:
 1) Скачать проект и зайти в проект с помощью cd
-2) Выполнить nano и записать
+2) Выполнить nano и записать в .env
 GIGACHAT_CREDENTIALS=<Ключ от GigiChat>
 TAVILY_API_KEY=<Ключ от tavily> 
 4) docker compose build
